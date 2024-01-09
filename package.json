@@ -2,9 +2,9 @@
   "name": "screen-recorder",
   "version": "1.0.0",
   "description": "Native JavaScript screen recorder",
-  "main": "src/index.js",
+  "main": "src/script.js",
   "scripts": {
-    "start": "node --watch src/index.js",
+    "start": "node --watch src/script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

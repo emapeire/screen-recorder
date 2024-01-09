@@ -17,7 +17,7 @@ $button.addEventListener('click', async () => {
   mediarecorder.addEventListener('dataavailable', (e) => {
     const link = document.createElement('a')
     link.href = URL.createObjectURL(e.data)
-    link.download = 'captura.webm'
+    link.download = 'clip.webm'
     link.click()
   })
 })
