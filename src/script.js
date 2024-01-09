@@ -23,7 +23,7 @@ async function startRecording() {
     $button.textContent = '⏹️ Stop recording and download your clip'
     isRecording = true
   } catch (error) {
-    console.error('Error al iniciar la grabación: ', error)
+    console.error('Error starting recording: ', error)
   }
 }
 
